@@ -80,15 +80,13 @@ p{
 
 .seccion1{
 	text-size-adjust: 20px;
-	padding top: 30px;
 }
 
 .button{
-	width: 60px;
 	border: none;
 	background-color: #D39820;
 	color: #fff;
-	padding: 10px 10px;
-	font-size: 35px;
-	display: inline-block;
+	padding: 15px 15px;
+	border-radius: 20px;
+	font-size: 16px;
 }
