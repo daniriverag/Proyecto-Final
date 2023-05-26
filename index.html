@@ -16,15 +16,16 @@
 </head>
 <body>
     <header>
-        <div class="head">
-
+        <div class="main-container">
             <div class="logo">
-                <a href="#index"><img src="./assets/imagenes/logo header.png" alt=""></a>
+                <a href="#index"><img src="./assets/imagenes/logo header.png" height="100px" alt=""></a>
             </div>
             <nav class="navbar">
-                    <a href="./html/quienes somos.html">Quienes Somos</a>
-                    <a href="./html/servicios.html">Servicios</a>
-                    <a href="./html/contacto.html">Contacto</a>
+                <ul>
+                    <li><a href="./html/quienes somos.html">Quienes Somos</a> </li>
+                    <li><a href="./html/servicios.html">Servicios</a></li>
+                    <li><a href="./html/contacto.html">Contacto</a></li>
+                </ul>    
             </nav>
         </div>
     </header>
@@ -40,13 +41,14 @@
             <br>
             <p>Estamos comprometidos en brindar soluciones legales a nuestros clientes, siempre con el objetivo de ofrecer el mejor servicio y asesoramiento legal posible.</p>
             <br>
-            <button class="button" type="button"> Conoce más sobre nosotros</button>
+            <button class="button" type="button" > Conoce más sobre nosotros</button>
+            <br>
             <br>
             <hr>
         </section>
         <section>
             <br>
-            <h2><strong>Servicios</strong></h2>
+            <h2 style="text-align: left;"><strong>Servicios</strong></h2>
             <img src="assets/imagenes/lab.png" alt="">
             <img src="assets/imagenes/inmb.png" alt="">
             <img src="assets/imagenes/mig.png" alt="">
@@ -58,25 +60,18 @@
             <img src="assets/imagenes/const.png" alt="">
             <br>
             <button class="button" type="button"> Ver más servicios</button>
+            <br>
             <hr>
         </section>
-        <section>
+        <section class="contact-form">
             <br>
-            <h2>Contáctenos, cuéntenos su caso</h2>
+            <h2 style="text-align: left;">Contáctenos, cuéntenos su caso</h2>
             <hr>
-            <form action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre">
-                <br>
-                <label for="correo">Correo</label>
-                <input type="text" id="correo" name="correo">
-                <br>
-                <label for="tel">Teléfono</label>
-                <input type="text" id="tel" name="tel">
-                <br>
-                <label for="msj">Mensaje</label>
-                <textarea name="msj" id="msj" cols="30" rows="10" placeholder="Maximo 10 palabras"> Mensaje</textarea>
-                <br>
+            <form>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo">
+                <input type="text" id="correo" name="correo" placeholder="Correo">
+                <input type="text" id="tel" name="tel" placeholder="Telefono]">
+                <textarea name="msj" id="msj" rows="10" placeholder="Mensaje"></textarea>
                 <button class="button" type="submit">Enviar Formulario</button>
             </form>
         </section>
